@@ -3,87 +3,76 @@
 <html lang="en">
 <head>
     <!-- Meta Tags -->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8"> <!-- Specifies the character encoding for the HTML document -->
+    <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Makes the webpage look good on all devices -->
     <!-- Page Title -->
-    <title>Home Page</title>
+    <title>Home Page</title> <!-- Specifies the title of the webpage -->
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"> <!-- Links to the Bootstrap CSS library -->
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css"> <!-- Links to a custom CSS file -->
 </head>
 
+<body> <!-- Body of the HTML document -->
     <!-- Navigation Bar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light"> <!-- Creates a light-themed navigation bar that expands at the lg (large) breakpoint -->
         <!-- Navbar Brand -->
-        <a class="navbar-brand" href="index2.html">PAGE 2</a>
+        <a class="navbar-brand" href="index2.html">PAGE 2</a> <!-- Creates a brand/logo element in the navigation bar -->
         <!-- Navbar Items -->
-        <div class="collapse navbar-collapse">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="index.html">Home</a>
+        <div class="collapse navbar-collapse"> <!-- Creates a collapsible container for the navigation bar content -->
+            <ul class="navbar-nav mr-auto"> <!-- Creates a list of navigation items aligned to the left (mr-auto) -->
+                <li class="nav-item active"> <!-- Creates a navigation item marked as active -->
+                    <a class="nav-link" href="index.html">Home</a> <!-- Creates a navigation link -->
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="index2.html">INFO</a>
+                <li class="nav-item"> <!-- Creates a navigation item -->
+                    <a class="nav-link" href="index2.html">INFO</a> <!-- Creates a navigation link -->
                 </li>
             </ul>
         </div>
     </nav>
  
-    <body>
-        <!-- Main Content -->
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <!-- Page Title -->
-                    <h1 class="title">RICK AND MORTY!!</h1>
-                    <!-- Page Subtitle -->
-                    <p class="title2">TIME TO GET SCHWIFTY!</p>
-                    <!-- Rick and Morty Description -->
-                    <p class="description">Rick and Morty is a popular animated science fiction sitcom. It follows the misadventures of an eccentric, alcoholic scientist named Rick Sanchez and his good-hearted but easily influenced grandson Morty Smith, who split their time between domestic family life and interdimensional adventures.</p>
-                    <!-- Main Characters -->
-                    <h2 class="subtitle">Main Characters</h2>
-                    <table class="character-table">
-                        <tr>
-                            <th>Character</th>
-                            <th>Description</th>
-                            <th>Image</th>
-                        </tr>
-                        <tr>
-                            <td>Rick Sanchez</td>
-                            <td>An eccentric and alcoholic mad scientist who is also a genius.</td>
-                            <td><img src="rick_image_url" alt="Rick Sanchez"></td>
-                        </tr>
-                        <tr>
-                            <td>Morty Smith</td>
-                            <td>Rick's good-hearted but easily influenced grandson.</td>
-                            <td><img src="morty_image_url" alt="Morty Smith"></td>
-                        </tr>
-                        <!-- Add more characters here -->
-                    </table>
-                    <!-- Main Villains -->
-                    <h2 class="subtitle">Main Villains</h2>
-                    <table class="villain-table">
-                        <tr>
-                            <th>Villain</th>
-                            <th>Description</th>
-                            <th>Image</th>
-                        </tr>
-                        <tr>
-                            <td>Evil Morty</td>
-                            <td>An evil version of Morty who has become one of the main antagonists in the series.</td>
-                            <td><img src="evil_morty_image_url" alt="Evil Morty"></td>
-                        </tr>
-                        <tr>
-                            <td>Tammy Guetermann</td>
-                            <td>A former friend of Summer Smith who is revealed to be a deep-cover agent for the Galactic Federation.</td>
-                            <td><img src="tammy_image_url" alt="Tammy Guetermann"></td>
-                        </tr>
-                        <!-- Add more villains here -->
-                    </table>
-                </div>
+    <!-- Main Content -->
+    <div class="container"> <!-- Creates a container for the main content -->
+        <div class="row"> <!-- Creates a row in the grid system -->
+            <div class="col"> <!-- Creates a column that spans the entire width of the row -->
+                <!-- Page Title -->
+                <h1 class="title">RICK AND MORTY!!</h1> <!-- Creates a level 1 heading -->
+                <!-- Page Subtitle -->
+                <p class="title2">TIME TO GET SCHWIFTY!</p> <!-- Creates a paragraph -->
+                <!-- Rick and Morty Description -->
+                <p class="description">Rick and Morty is a popular animated science fiction sitcom. It follows the misadventures of an eccentric, alcoholic scientist named Rick Sanchez and his good-hearted but easily influenced grandson Morty Smith, who split their time between domestic family life and interdimensional adventures.</p> <!-- Creates a paragraph -->
+                <!-- Main Characters -->
+                <h2 class="subtitle">Main Characters</h2> <!-- Creates a level 2 heading -->
+                <table class="character-table"> <!-- Creates a table -->
+                    <tr> <!-- Creates a row in the table -->
+                        <th>Character</th> <!-- Creates a header cell in the table -->
+                        <th>Description</th> <!-- Creates a header cell in the table -->
+                        <th>Image</th> <!-- Creates a header cell in the table -->
+                    </tr>
+                    <tr> <!-- Creates a row in the table -->
+                        <td>Rick Sanchez</td> <!-- Creates a data cell in the table -->
+                        <td>An eccentric and alcoholic mad scientist who is also a genius.</td> <!-- Creates a data cell in the table -->
+                        <td><img src="rick_image_url" alt="Rick Sanchez"></td> <!-- Creates a data cell in the table containing an image -->
+                    </tr>
+                    <!-- Add more characters here -->
+                </table>
+                <!-- Main Villains -->
+                <h2 class="subtitle">Main Villains</h2> <!-- Creates a level 2 heading -->
+                <table class="villain-table"> <!-- Creates a table -->
+                    <tr> <!-- Creates a row in the table -->
+                        <th>Villain</th> <!-- Creates a header cell in the table -->
+                        <th>Description</th> <!-- Creates a header cell in the table -->
+                        <th>Image</th> <!-- Creates a header cell in the table -->
+                    </tr>
+                    <tr> <!-- Creates a row in the table -->
+                        <td>Evil Morty</td> <!-- Creates a data cell in the table -->
+                        <td>An evil version of Morty who has become one of the main antagonists in the series.</td> <!-- Creates a data cell in the table -->
+                        <td><img src="evil_morty_image_url" alt="Evil Morty"></td> <!-- Creates a data cell in the table containing an image -->
+                    </tr>
+                    <!-- Add more villains here -->
+                </table>
             </div>
         </div>
-    </body>
-    
+    </div>
+</body>
 </html>

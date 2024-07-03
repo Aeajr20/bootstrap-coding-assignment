@@ -12,14 +12,20 @@ body{
     
 .container .row .col{
     background-color:  rgb(153, 252, 150);
+    
 }
-
+/* Selects both the character-table and villain-table classes */
 .character-table, .villain-table {
+    /* Adds a border around the entire table. The border is 1 pixel wide, solid, and black. */
     border: 1px solid black;
+    /* Collapses the borders into a single border when two borders meet (otherwise, you would have double borders where cells touch) */
     border-collapse: collapse;
 }
 
+/* Selects the th (table header) and td (table data/cell) elements within the character-table and villain-table classes */
 .character-table th, .character-table td, .villain-table th, .villain-table td {
+    /* Adds a border around each cell. The border is 1 pixel wide, solid, and black. */
     border: 1px solid black;
+    /* Adds some space around the content of each cell (10 pixels on all sides). This makes the table easier to read. */
     padding: 10px;
 }

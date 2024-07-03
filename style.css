@@ -13,3 +13,13 @@ body{
 .container .row .col{
     background-color:  rgb(153, 252, 150);
 }
+
+.character-table, .villain-table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.character-table th, .character-table td, .villain-table th, .villain-table td {
+    border: 1px solid black;
+    padding: 10px;
+}
